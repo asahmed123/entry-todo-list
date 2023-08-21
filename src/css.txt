@@ -1,0 +1,67 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Task Card Styling */
+.task-card {
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+/* "Add Task" Form Styling */
+.add-task-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+/* Task Filter Styling */
+.task-filter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter-button {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.filter-button:hover {
+  background-color: #e0e0e0;
+}
+
+.filter-button.active {
+  background-color: #2196f3;
+  color: white;
+}
